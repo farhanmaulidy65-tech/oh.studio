@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 30px;
+    cursor: pointer;
+   
+}
+
+.navbar nav {
+    background-color: #42424248;
+    border-radius: 2rem;
+    padding: .4rem .5rem;
+}
+
+.navbar nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;   
+    gap: 1rem;
+}
+
+.navbar nav ul li  {
+    padding: 1rem 2rem;
+
+}
+
+.navbar nav ul li.active{
+    background: #fff;
+    border-radius: 2rem;
+    
+}
+
+.section-1 {
+    padding: 16rem 0;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.section-1-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-head h1{
+    width: 45%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+span.Expertise {
+    padding: .5rem;
+    background-color: #42424248;
+    border-radius: 2rem;
+    margin: 0 .1rem;
+    cursor: pointer;
+
+}
+
+.secton-2 {
+    display: flex;
+    width: 100%;
+    max-width: 90vw;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+}
+
+
+.secton-2-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    
+}
+
+.grid-item img {
+    border-radius: 1rem;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+   
+}
+
+
+.section-3 {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-3-top {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.sec-3-bot {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(137, 139, 141);
+    font-family: sans-serif;
+}
+
+
+.footer-container {
+    max-width: 90vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.footer-left {
+   display: flex;
+   flex-direction: row;
+   gap: 1.5rem;
+}
+
+.footer-right a{
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+}
+
+.footer-right a:hover {
+   color: grey;
+
+}
